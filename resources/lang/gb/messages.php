@@ -7,4 +7,6 @@ return [
     'invite-sent-to-user' => 'Invite sent to :Name (:distance :DistanceMetric)',
     'no-invites-sent' => 'No invites sent (no one on the list is close enough :-( )',
     'upload-json-file' => 'Upload file',
+    'cancel' => 'Cancel',
+    'upload' => 'Upload',
 ];
