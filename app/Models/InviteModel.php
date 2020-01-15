@@ -50,9 +50,8 @@ class InviteModel
         $validator = Validator::make($request->post(), [
             'markers' => 'required|array'
         ]);
-
         if ($validator->fails()) {
-            return json_encode(['status' => 400, 'errors' => $validator->errors()]);
+            return ['status' => 400, 'errors' => $validator->errors()];
         }
 
         /* Retrieve markers from request object */
